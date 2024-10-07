@@ -14,7 +14,7 @@ body {
   align-items: center;
   height: 100vh;
   font-family: 'Arial', sans-serif;
-  background-color: #f0f0f0;
+  background-color: #000000;
 }
 
 /* Calculator container for better positioning */
@@ -23,6 +23,9 @@ body {
   grid-template-columns: repeat(4, 70px) ;
   gap: 10px;
   justify-content: center;
+  border: 2px solid rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 8px;
 }
 
 
@@ -89,4 +92,6 @@ button:active {
 .backspace {
   grid-column: span 2;
   width: 100%;
+  background-color: #007AFF;
+  color: white;
 }
