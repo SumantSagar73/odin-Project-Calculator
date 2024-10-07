@@ -14,7 +14,7 @@ body {
   align-items: center;
   height: 100vh;
   font-family: 'Arial', sans-serif;
-  background-color: #000000;
+  background-color:#E6E6FA;
 }
 
 /* Calculator container for better positioning */
@@ -23,6 +23,7 @@ body {
   grid-template-columns: repeat(4, 70px) ;
   gap: 10px;
   justify-content: center;
+  background-color: #000000;
   border: 2px solid rgb(255, 255, 255);
   padding: 10px;
   border-radius: 8px;
